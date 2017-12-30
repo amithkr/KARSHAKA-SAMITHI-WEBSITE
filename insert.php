@@ -15,7 +15,7 @@ $frm_Password=$_POST["frm_Password"];
 
 if(mysqli_query($con,$sqlDetail)){
 	$d = mysqli_query( $con, "SELECT LAST_INSERT_ID()");
-	// mysqli_next_result($d); 
+	
 
 	// mysqli_fetch($d); 
 	$row = mysqli_fetch_row($d);

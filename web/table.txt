@@ -1,0 +1,23 @@
+CREATE TABLE `farm` (
+ 
+ `frm_Name` varchar(20) NOT NULL,
+  
+`frm_Address` varchar(50) NOT NULL,
+ 
+ `frm_Aadhaar` varchar(10) NOT NULL,
+
+  `frm_DOB` varchar(20) NOT NULL,
+  
+`frm_Phone` varchar(20) NOT NULL,
+  
+`frm_Landacres` varchar(10) NOT NULL,
+  
+`frm_Landstatus` varchar(1) NOT NULL,
+  
+`status` varchar(1) NOT NULL,
+ 
+ `frm_Username` varchar(30) NOT NULL,
+  
+`frm_Password` varchar(10) NOT NULL
+) 
+ENGINE=MyISAM DEFAULT CHARSET=latin1;

@@ -3,7 +3,7 @@
 // $mysql_user="id1213608_siyascs";
 // $mysql_pass="siyascs";
 // $server_name="localhost";
-$con=mysqli_connect("localhost","root","","vegitables");
+$con=mysqli_connect("localhost","root","","mini");
 if(!$con){
 	echo "connection Error...".mysqli_connect_error();
 
